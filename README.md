@@ -1,4 +1,4 @@
-# New Project Template
+# Autosharding
 
 This repository provides an OSS protocol for distributing load balancing information about serving endpoints in scenarios when endpoints are automatically sharded by a control plane.
 This protocol will be used to provide OSS implementation of the ideas published in [](https://research.google/pubs/slicer-auto-sharding-for-datacenter-applications/).
