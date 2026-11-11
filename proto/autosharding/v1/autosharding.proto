@@ -272,7 +272,8 @@ message AssignmentAck {
 // Metadata associated with an assignment.
 message AssignmentMetadata {
   // The assignment's unique and monotonically-increasing version number.
-  int64 generation = 1;
+  // Only positive values are allowed.
+  int64 generation = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 // A portion of an assignment of slices to endpoints. The individual fields'
